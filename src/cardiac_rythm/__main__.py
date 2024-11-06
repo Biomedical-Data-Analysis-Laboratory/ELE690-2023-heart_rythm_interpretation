@@ -126,8 +126,8 @@ def main() -> int:
             pools[i] = None
 
     # Loading tf is slow, so don't do it unless we have a file.
-    from cardiac_rythm.models import CNNConfig
-    from cardiac_rythm.train import FitSettings, fit
+    from models import CNNConfig
+    from train import FitSettings, fit
 
     settings = FitSettings(
         args.epochs,

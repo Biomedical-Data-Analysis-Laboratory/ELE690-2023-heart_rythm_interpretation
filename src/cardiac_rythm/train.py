@@ -7,8 +7,8 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from cardiac_rythm import visualize, preprocessing
-from cardiac_rythm.models import CNN, CNNConfig
+import visualize, preprocessing
+from models import CNN, CNNConfig
 from dataclasses_json import dataclass_json
 from sklearn import model_selection
 
