@@ -14,5 +14,5 @@ conda activate tf_env
 # Cuda
 pip install nvidia-cudnn-cu11==8.6.0.163 tensorrt==8.5.3.1 tensorflow==2.12.0 
 # Project deps
-pip install .
-echo "Finished setting up."
+pip install requirements.txt
+Echo "Finished setting up."
